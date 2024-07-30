@@ -1,0 +1,32 @@
+.professor-cadastrar-aluno-finalizado {
+    display: flex;
+    flex-direction: row;
+}
+
+.professor-cadastrar-aluno-finalizado .professor-cadastrar-aluno-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.professor-cadastrar-aluno-finalizado .professor-cadastrar-aluno-title {
+    text-align: center;
+}
+
+.professor-cadastrar-aluno-finalizado .professor-cadastrar-aluno-title p {
+    font-size: var(--title);
+    font-weight: bold;
+}
+
+.professor-cadastrar-aluno-finalizado .professor-cadastrar-aluno-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top:3rem;
+}
+
+.professor-cadastrar-aluno-finalizado .professor-cadastrar-aluno-buttons button {
+    width: 18rem;
+}

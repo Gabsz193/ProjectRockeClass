@@ -1,0 +1,10 @@
+.field input {
+    border-radius: 15px;
+    border: 2px solid #ABABAB;
+    padding: .5rem;
+    width: calc(100% - 2rem);
+}
+
+.field {
+    line-height: 0;
+}

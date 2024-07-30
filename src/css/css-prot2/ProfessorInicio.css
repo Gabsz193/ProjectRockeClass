@@ -1,0 +1,26 @@
+.professor-inicio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.professsor-inicio-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: calc(100vh - 25px);
+    width: 100%;
+    background-color: #FAFAFA;
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.professsor-inicio-content::-webkit-scrollbar {
+        display: none;
+}
+
+.bem-vindo-title {
+    font-size: var(--title);
+    font-weight: 600;
+}

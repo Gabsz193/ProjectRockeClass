@@ -1,0 +1,65 @@
+.Professor-Aluno-Dashboard {
+    margin-left: 17.63vw;
+    margin-right: 17.63vw;
+}
+
+.Professor-Aluno-Dashboard .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Professor-Aluno-Dashboard .content > div:nth-child(2) {
+    margin: 42px;
+}
+
+.Professor-Aluno-Dashboard .top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Professor-Aluno-Dashboard .top button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.Professor-Aluno-Dashboard .estatisticas > div {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.Professor-Aluno-Dashboard .estatisticas > p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.Professor-Aluno-Dashboard .visao-geral > div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Professor-Aluno-Dashboard .visao-geral > p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.Professor-Aluno-Dashboard .habilidadesSuper > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Professor-Aluno-Dashboard .habilidadesSuper > p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}

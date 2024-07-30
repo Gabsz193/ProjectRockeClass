@@ -1,0 +1,27 @@
+.home-bar, .home-bar > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 35px;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.home-bar > div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title {
+    font-size: var(--title);
+}
+
+.title b {
+    color: var(--primary-color);
+}
+
+.home-bar-options {
+    font-size: var(--text);
+}
+

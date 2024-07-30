@@ -1,0 +1,105 @@
+.add-observacao-popup {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.527);
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.add-observacao-popup > div {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 60vw;
+}
+
+.add-observacao-popup > div > div {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-observacao-popup .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-observacao-popup .legenda {
+    color: #595959;
+    font-size: 12px;
+    line-height: 5px;
+}
+
+.add-observacao-popup .title button {
+    color: #8C61DC;
+    line-height: 8px;
+    border: 1px solid #8C61DC;
+}
+
+.add-observacao-popup .row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 25px;
+    margin-right: 100px;
+}
+
+.add-observacao-popup .row > div {
+    flex: 1;
+    display: flex;
+    border: 1px solid #8C61DC;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    gap: 20px;
+}
+
+.add-observacao-popup .row .gabrielchato {
+    font-weight: 700;
+}
+
+.add-observacao-popup .row p {
+    color: #8C61DC;
+}
+
+.add-observacao-popup .ball {
+    display: flex;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #E9E7F6;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-observacao-popup img {
+    width: 30px;
+    height: 30px;
+}
+
+.add-observacao-popup .observacao-field {
+    width: 100%;
+    height: 10rem;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+    margin-top: 10px;
+}
+
+.add-observacao-popup .lalala {
+    margin-top: 20px;
+}
+
+.add-observacao-popup > div > div > button {
+    align-self: flex-end;
+    width: max-content;
+}

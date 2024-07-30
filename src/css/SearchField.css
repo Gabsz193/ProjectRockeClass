@@ -1,0 +1,21 @@
+.Search-Field {
+    border: 1px solid #ABABAB;
+    outline: none;
+    border-radius: 100px;
+    font-size: var(--text);
+    line-height: 40px;
+    padding-left: 60px;
+    border-radius: 100px;
+    transition: 0.5s linear;
+    width: 70%;
+    background-image: url('../svg/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: center;
+}
+
+
+
+.Search-Field:focus {
+    outline: 1px solid var(--primary-green);
+}

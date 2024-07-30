@@ -1,0 +1,16 @@
+.Alunos-Cadastrados {
+    border-collapse: collapse;
+}
+
+.Alunos-Cadastrados tr:hover:not(:first-child) {
+    background-color: var(--transparent-green);
+    cursor: pointer;
+}
+
+.Alunos-Cadastrados th {
+    text-align: left;
+}
+
+.Alunos-Cadastrados .link {
+    
+}

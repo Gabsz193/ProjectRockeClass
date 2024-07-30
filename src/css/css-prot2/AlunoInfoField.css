@@ -1,0 +1,57 @@
+.aluno-info-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.col2-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.finaliza-cadastro {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    height: fit-content;
+    align-self: center;
+}
+
+.col2-options button {
+    width: 50%;
+}
+
+.aluno-info-field > div:nth-child(1) {
+    flex-grow: 2;
+}
+
+.aluno-info-field > div:nth-child(2) {
+    flex-grow: 2;
+}
+
+.aluno-info-field > div:nth-child(3) {
+    flex-grow: 2;
+}
+
+.aluno-info-field .col12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aluno-info-field .col12 div {
+    width: 100%;
+}
+
+.aluno-info-field .col22 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.aluno-info-field .col22 div {
+    width: 100%;
+}

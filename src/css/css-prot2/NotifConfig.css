@@ -1,0 +1,10 @@
+.notif-config {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.notif-config img {
+    width: 1.5rem;
+    height: 1.5rem;
+}

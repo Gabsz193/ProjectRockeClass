@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --font-family: 'Poppins';
+  --text: 16px;
+  --title: 32px;
+  --big-text: 48px;
+  --primary-purple: #644FE9;
+  --primary-green: #11C32E;
+  --transparent-green: #b9eac147;
+  --pg-hover: #0ea227;
+}
+
+*:not(.professor-cadastro-aluno *) {
+  margin: 0;
+  font-family: var(--font-family);
+  box-sizing: border-box;
+  padding: 0;
+  color: #434343;
+}
+
+body {
+  background-color: #FDFDFD;
+}
+
+a {
+  text-decoration: none;
+}

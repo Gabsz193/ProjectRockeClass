@@ -1,0 +1,24 @@
+.Field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Field > p {
+    width: fit-content;
+    line-height: 40px;
+}
+
+.Field > input {
+    font-size: var(--text);
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #ABABAB;
+    border-radius: 10px;
+    transition: 0.5s linear;
+}
+
+.Field > input:focus {
+    outline: 2px solid var(--primary-green);
+}

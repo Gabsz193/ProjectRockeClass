@@ -1,0 +1,18 @@
+.ou-com::after,
+.ou-com::before {
+    content: '';
+    border: 1px solid #DADADA;
+    flex: 1;
+}
+
+.ou-com span {
+    color: #828282;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.ou-com {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

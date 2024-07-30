@@ -1,0 +1,32 @@
+.professor-perfil {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.professor-perfil img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.professor-perfil div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ver-perfil {
+    margin-top: 5px;
+    color: var(--primary-green);
+}
+
+.professor-perfil-bar {
+    display: flex;
+    flex-direction: column;
+    min-width: 18vw;
+    padding-top: 3rem;
+    gap: 3rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}

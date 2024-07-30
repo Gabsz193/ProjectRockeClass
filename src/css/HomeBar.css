@@ -1,0 +1,35 @@
+.HomeBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+.HomeBar > div {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    gap: 39px;
+}
+
+.HomeBar > div > a {
+    transition: 0.5s;
+}
+
+.HomeBar > div > a:hover {
+    scale: 1.1;
+}
+
+.HomeBar > div > .entrar-button {
+    font-weight: 500;
+}
+
+.main-title {
+    transition: 0.75s;
+    cursor: pointer;
+}
+  
+.main-title:hover {
+    scale: 1.2;
+}

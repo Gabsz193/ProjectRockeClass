@@ -1,0 +1,40 @@
+.process-bar {
+    height: 10rem;
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-green);
+}
+
+.process-bar > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.process-bar > .bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    margin-top: -15px;
+}
+
+.bola-verde {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--primary-green);
+}
+
+.barra-verde {
+    width: .5rem;
+    border-radius: 0 0 30px 30px;
+    height: 100px;
+    background-color: var(--primary-green);
+}

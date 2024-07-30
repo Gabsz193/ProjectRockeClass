@@ -1,0 +1,16 @@
+.filter p {
+    color: #24AB3A;
+    line-height: 10px;
+}
+
+.filter {
+    display: flex;
+    border-radius: 100px;
+    width: fit-content;
+    padding: 10px;
+    background-color: rgba(47, 255, 54, 0.25);
+}
+
+.filter span {
+    margin-left: 10px;
+}

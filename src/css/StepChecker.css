@@ -1,0 +1,39 @@
+.Step-Checker {
+    display: flex;
+    gap: 15px;
+}
+
+.Step-Checker .green-ball {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-green);
+    border-radius: 100px;
+    color: #fff;
+}
+
+.Step-Checker .green-line {
+    background-color: var(--primary-green);
+    height: 80%;
+    border-radius: 100px;
+    width: 8px;
+    display: flex;
+    position: relative;
+    top: -10px;
+    z-index: -1;
+    min-height: 10rem;
+    
+}
+
+.Step-Checker > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Step-Checker p {
+    line-height: 40px;
+    color: var(--primary-green);
+}

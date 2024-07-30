@@ -1,0 +1,29 @@
+.aluno-banner {
+    background: no-repeat url(../images/background-placeholder.png);
+    background-size: 100% 100%;
+    min-height: 30vh;
+    position: relative;
+}
+
+.aluno-banner .aluno-info {
+    position: absolute;
+    bottom: -100px;
+    left: 5%;
+}
+
+.aluno-banner img {
+    width: 125px;
+    border: 5px solid white;
+    border-radius: 100px;
+}
+
+.aluno-banner .name {
+    font-weight: 600;
+    color: black;
+    font-size: 24px;
+}
+
+.aluno-banner .class {
+    color: #828282;
+    font-size: 16px;
+}

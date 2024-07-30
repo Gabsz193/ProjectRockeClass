@@ -1,0 +1,79 @@
+.Professor-Cadastra-Aluno .Content {
+    margin-right: 0px;
+}
+
+.Professor-Cadastra-Aluno .buttonVoltar button {
+    min-width: 150px;
+}
+
+.Professor-Cadastra-Aluno .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Professor-Cadastra-Aluno .header p {
+    font-size: var(--title);
+    font-weight: 600;
+}
+
+.Professor-Cadastra-Aluno .header button {
+    width: 15%;
+    height: 50px;
+}
+
+.Professor-Cadastra-Aluno .header span {
+    font-size: var(--text);
+    color: #828282;
+}
+
+.Professor-Cadastra-Aluno hr {
+    margin-top: 10px;
+    border: 1px solid #DADADA;
+}
+
+.Professor-Cadastra-Aluno .cadastrar-content {
+    display: grid;
+    grid-template-columns: 25% 35% 30%;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    margin-top: 1.5rem;
+    padding-bottom: 10rem;
+}
+
+.Professor-Cadastra-Aluno .cadastrar-content .duplo {
+    display: flex;
+    gap: 20px;
+}
+
+.Professor-Cadastra-Aluno .duplo .Field {
+    flex: 1;
+    min-width: 0;
+}
+
+.Professor-Cadastra-Aluno .fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Professor-Cadastra-Aluno .buttons {
+    display: flex;
+    gap: 20px;
+    height: 3rem;
+}
+
+.duplo .atend {
+    border: 1px solid #ABABAB;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-start;
+    font-size: var(--text);
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    flex: 1;
+}

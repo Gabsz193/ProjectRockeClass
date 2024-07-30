@@ -1,0 +1,45 @@
+.Home {
+    margin: 50px;
+}
+
+.Home .title {
+    text-decoration: underline;
+    color: var(--primary-purple);
+    font-weight: 600;
+}
+
+.Home .big-text {
+    font-size: var(--big-text);
+    font-weight: 600;
+    line-height: 72px;
+    color: #000000;
+}
+
+.Home .small-text {
+    font-weight: 400;
+}
+
+.Home-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: fit-content;
+}
+
+.Home-buttons {
+    display: flex;
+    gap: 50px;
+    margin-top: 27px;
+    width: fit-content;
+}
+
+.Home-Content {
+    width: fit-content;
+}
+
+.ImagePlaceholder {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: -1;
+}

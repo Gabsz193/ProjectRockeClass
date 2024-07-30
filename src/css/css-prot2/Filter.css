@@ -1,0 +1,13 @@
+.filter {
+    background-color: #2fff3661;
+    border-radius: 40%;
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    outline: none;
+    border: none;
+}
+
+.filter span {
+    color: var(--primary-green);
+}

@@ -1,0 +1,90 @@
+.NavigationBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 1;
+    width: 17.63vw;
+    background-color: var(--primary-purple);
+}
+
+.NavigationBar * {
+    overflow-wrap: break-word;
+}
+
+.NavigationBar > div {
+    margin: 44px 0px 0px 24px;
+}
+
+.NavigationBar .title {
+    color: #61FC79;
+    font-weight: 600;
+    font-size: var(--title);
+}
+
+.NavigationBar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.NavigationBar li {
+    list-style: none;
+    padding-left: 25px;
+    border-radius: 100px 0px 0px 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.NavigationBar nav {
+    margin-top: 59px;
+}
+
+.NavigationBar li:hover {
+    background-color: rgba(60, 37, 207,46%);
+}
+
+.NavigationBar .svg {
+    stroke: white;
+}
+
+.NavigationBar li:hover a,
+.NavigationBar li:hover .svg  {
+    stroke: #61FC79;
+    color: #61FC79;
+}
+
+.NavigationBar img {
+    width: 20px;
+    height: 20px;
+}
+
+.NavigationBar ul a {
+    color: #FFFFFF;
+}
+
+.NavigationBar .sair {
+    color: #F4A7A7;
+}
+
+.NavigationBar .Sair > *{
+    margin-top: 153px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 34px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.NavigationBar .Sair {
+    transition: 0.5s;
+}
+
+.NavigationBar .Sair:hover {
+    scale: 1.1;
+}

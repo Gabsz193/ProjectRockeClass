@@ -1,0 +1,10 @@
+.Checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Checkbox .checkbox {
+    scale: 1.75;
+}

@@ -1,0 +1,66 @@
+.habilidades-card {
+    border: 1px solid #C6C6C6;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+    height: min-content;
+}
+
+.habilidades-card .ballGreen {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 3px solid #11C32E;
+}
+
+.habilidades-card .ballRed {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 3px solid #C95F50;
+}
+
+.habilidades-card .title {
+    text-align: left;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-self: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C6C6C6;
+    padding-left: 40px;
+}
+
+.habilidades-card .habilidades {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.habilidades-card .forte {
+    color: #11C32E;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.habilidades-card .melhorar {
+    color: #C95F50;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.habilidades-card .competencia {
+    color: #8C61DC;
+    font-weight: 700;
+}

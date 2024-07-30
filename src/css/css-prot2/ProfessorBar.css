@@ -1,0 +1,19 @@
+.professor-bar * {
+    color: white;
+}
+
+.professor-bar {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 25px);
+    width: max-content;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 5rem;
+    background-color: var(--primary-color);
+}
+
+.professor-bar .project-name {
+    color: var(--secondary-green);
+    font-size: var(--title);
+}

@@ -1,0 +1,59 @@
+main {
+    font-size: var(--text);
+    width: max-content;
+    margin-bottom: 2rem;
+}
+
+section {
+    display: flex;
+    align-items: flex-end;
+    height: min-content;
+    align-self: flex-end;
+    position: relative;
+}
+
+.content-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.background-image {
+    background-color: #644FE9;
+    z-index: -1;
+    position: absolute;
+    top: -5rem;
+    right: -1rem;
+    min-height: 10rem;
+    min-width: 10rem;
+    border-radius: 9999px;
+}
+
+.destaque {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.page-title {
+    font-size: var(--big-title);
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+.project-name b {
+    color: var(--primary-color);
+}
+
+.buttons-field {
+    display: flex;
+    gap: 20px;
+    margin-top: 3rem;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    min-height: 8rem;
+}

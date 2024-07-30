@@ -1,0 +1,70 @@
+.disciplina-line {
+    border: 1px solid #C6C6C6;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    border-radius: 20px;
+    height: min-content;
+    padding: 20px;
+}
+
+.disciplina-line .title {
+    font-size: 16px;
+    line-height: 50px;
+    color: #818181;
+}
+
+.disciplina-line > div {
+    border-top: 1px solid #C6C6C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.disciplina-line .labels {
+    display: grid;
+    border-top: none;
+    padding-top: 10px;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+    column-gap: 15px;
+    margin-bottom: 20px;
+}
+
+.disciplina-line .labels p {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #5D45DB;
+}
+
+.disciplina-line .matematica {
+    background-color: #5D45DB;
+    border-radius: 100px;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+.disciplina-line .portugues {
+    background-color: #ECE9FF;
+    border-radius: 100px;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+.disciplina-line .ciencias {
+    background-color: #FF696D;
+    border-radius: 100px;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+.disciplina-line .arte {
+    background-color: #A698EB;
+    border-radius: 100px;
+    min-width: 25px;
+    min-height: 25px;
+}

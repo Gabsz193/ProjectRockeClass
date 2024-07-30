@@ -1,0 +1,34 @@
+.aluno-perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aluno-perfil div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.aluno-ranking {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.options {
+    justify-self: flex-end;
+}
+
+.ranking-aluno {
+    width: 100%;
+}
+
+.aluno-foto {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: gray;
+    border-radius: 9999px;
+}

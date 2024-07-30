@@ -1,0 +1,55 @@
+.professor-estudantes-pesquisa {
+    display: flex;
+    flex-direction: row;
+}
+
+.professor-estudantes-content {
+    width: 100%;
+    padding: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+} 
+
+.professor-estudantes-content .professor-estudantes-filters-title {
+    color: var(--primary-green);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+}
+
+.professor-estudantes-content .professor-estudantes-filters-title label {
+    text-transform: uppercase;
+}
+
+
+.professor-estudantes-content .professor-estudantes-filters {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.professor-estudantes-content .professor-estudantes-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.professor-estudantes-content .professor-estudantes-title p {
+    font-size: var(--title);
+    font-weight: bold;
+}
+
+.professor-estudantes-content .professor-estudantes-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: var(--title);
+    color: gray;
+    margin-top: 3rem;
+}

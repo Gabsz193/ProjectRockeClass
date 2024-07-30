@@ -1,0 +1,54 @@
+.Aluno-Cadastrado td {
+    border-top: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Aluno-Cadastrado .nome > div {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.Aluno-Cadastrado .nome {
+    width: 30%;
+}
+
+.Aluno-Cadastrado .desempenho {
+    width: 30%;
+}
+
+.Aluno-Cadastrado .turma {
+    width: 15%;
+}
+
+.Aluno-Cadastrado .more {
+    width: 5%;
+}
+
+.Aluno-Cadastrado .desempenho > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.Aluno-Cadastrado .desempenho > div > div {
+    width: 83.61%;
+    background-color: #DADADA;
+    border-radius: 100px;
+    height: 12px;
+}
+
+.Aluno-Cadastrado .desempenho .bar {
+    background-color: #24AB3A;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+}
+
+
+.Aluno-Cadastrado .desempenho p {
+    color: #24AB3A;
+}

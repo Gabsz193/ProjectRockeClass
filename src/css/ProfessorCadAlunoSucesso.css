@@ -1,0 +1,36 @@
+.Professor-Cadastro-Aluno-Sucesso .Content {
+    margin-right: 0px;
+}
+
+.Professor-Cadastro-Aluno-Sucesso .Content > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Professor-Cadastro-Aluno-Sucesso .Content .things {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Professor-Cadastro-Aluno-Sucesso .Content .title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Professor-Cadastro-Aluno-Sucesso .text {
+    text-align: center;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.Professor-Cadastro-Aluno-Sucesso .buttons {
+    display: flex;
+    gap: 4rem;
+}
